@@ -6,12 +6,18 @@
 <html lang="en-US">
 {% include head.html %}
 
-<body>
-  {% include header.html %}
+<body class="flex-col">
+  <header id="header">
+    {% include header.html %}
+  </header>
 
-  {{ content }}
+  <div id="content">
+    {{ content }}
+  </div>
 
-  {% include footer.html %}
+  <footer id="footer">
+    {% include footer.html %}
+  </footer>
 </body>
 
 </html>
