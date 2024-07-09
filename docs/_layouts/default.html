@@ -7,7 +7,7 @@
 {% include head.html %}
 
 <body class="flex-col">
-  <header id="header">
+  <header>
     {% include header.html %}
   </header>
 
@@ -15,9 +15,11 @@
     {{ content }}
   </div>
 
-  <footer id="footer">
+  <footer>
     {% include footer.html %}
   </footer>
+
+  {% include scripts.html %}
 </body>
 
 </html>
