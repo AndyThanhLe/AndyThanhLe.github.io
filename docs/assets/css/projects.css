@@ -1,0 +1,22 @@
+#project-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card {
+  border: solid 1px #999;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+.project-image {
+  flex: 0 0 auto;
+  width: 200px;
+  height: 200px;
+}
+
+.project-summary {
+  flex: 1;
+}
