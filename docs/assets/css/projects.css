@@ -2,13 +2,14 @@
   flex: 1;
   display: flex;
   flex-direction: column;
+  padding: 30px;
+  gap: 30px;
 }
 
 .project-card {
   border: solid 1px #999;
   display: flex;
-  flex-direction: row;
-  align-items: stretch;
+  align-items: center;
 }
 
 .project-image {
@@ -17,6 +18,26 @@
   height: 200px;
 }
 
+.project-preview {
+  flex: 1;
+}
+
+.project-card-expand {
+  display: none;
+}
+
+.project-stack {
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.project-stack > img {
+  height: 50px;
+}
+
 .project-summary {
   flex: 1;
 }
+
