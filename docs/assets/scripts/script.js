@@ -1,9 +1,14 @@
 // Set the link redirects
-const links = document.getElementsByClassName('nav-link');
-for (let i = 0; i < links.length; i++) {
-  let link = links.item(i);
-
-  link.addEventListener('click', () => {
-    window.location.href = link.id;
+$(document).ready(function() {
+  $('.top-nav-link').click(function() {
+    window.location.href = $(this).attr('id');
   });
-}
+});
+
+$('.project-link').click(function() {
+  $('#project-modal').css('display', 'block');
+});
+
+$('#project-modal-close').click(function() {
+  $('#project-modal').css('display', 'none');
+});
