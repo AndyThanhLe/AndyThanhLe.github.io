@@ -1,6 +1,10 @@
 // Set the link redirects
 $(document).ready(function() {
   $('.top-nav-link').click(function() {
+    if (window.location.pathname == $(this).attr('id')) {
+      return;
+    }
+
     window.location.href = $(this).attr('id');
   });
 });
