@@ -5,45 +5,33 @@ layout: default
 <div id="project-section">
 {% for project in site.data.projects %}
   <div class="project-card nav-link project-link">
-    <img class="project-image" alt="{{ project.previewImage.description }}"
-      src="{{ project.previewImage.path }}">
+    <img class="project-image" title="{{ project.previewImage.description }}" alt="{{ project.previewImage.description }}" src="{{ project.previewImage.path }}" />
 
     <div class="project-preview">
       <h1>{{ project.name }}</h1>
     </div>
-  </div>
-{% endfor %}
-</div>
 
-<!--
- Put this all the relevant information inside of a data file and populate the modal accordingly off a key
- -->
-<div id="project-modal">
-  <div id="project-modal-content">
-    <span id="project-modal-close">&times;</span>
+    <div class="project-modal hide">
+      <div class="project-modal-content">
+        <span class="project-modal-close">&times;</span>
 
-    <h1>EmberAlert</h1>
+        <h1>{{ project.name }}</h1>
 
-    <div id="project-stack">
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-      <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg" />
+        <div class="project-stack">
+        {% for technology in project.stack %}
+          {% for item in site.data.stack %}
+            {% if technology == item.technology %}
+              <img title="{{ item.technology }}" alt="{{ item.technology }}" src="{{ item.src }}" />
+              {% break %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+        </div>
+
+        <p>{{ project.description }}</p>
+      </div>
     </div>
 
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor
-      pretium
-      eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo
-      bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue,
-      nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit.
-      Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus
-      dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod.
-      Nulla
-      fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum
-      sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque
-      cursus tortor. Nunc in nisl non libero venenatis sollicitudin.
-    </p>
   </div>
+{% endfor %}
 </div>
