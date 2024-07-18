@@ -1,7 +1,7 @@
 // Set the link redirects
 $(document).ready(function() {
   $('.top-nav-link').click(function() {
-    if (window.location.pathname == $(this).attr('id')) {
+    if (window.location.pathname.split('/').at(-1) == $(this).attr('id')) {
       return;
     }
 
