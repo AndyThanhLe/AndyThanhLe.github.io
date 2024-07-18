@@ -1,0 +1,33 @@
+- name: EmberAlert
+  summary: Fire spread prediction application leveraging an ML model
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor pretium eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue, nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit. Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod. Nulla fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque cursus tortor. Nunc in nisl non libero venenatis sollicitudin. 
+  previewImage:
+    path: assets/images/project-image.jpg
+    description: EmberAlert project image preview
+  stack:
+    - NextJS
+    - React
+    - TypeScript
+    - TailWindCSS
+    - TensorFlow
+
+- name: 3D Printing Business Website
+  summary: Website enabling customers to purchase 3D printing services
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor pretium eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue, nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit. Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod. Nulla fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque cursus tortor. Nunc in nisl non libero venenatis sollicitudin. 
+  previewImage:
+    path: assets/images/project-image.jpg
+    description: 3D printing project image preview
+  stack:
+    - MongoDB
+    - ExpressJS
+    - NodeJS
+    - ThreeJS
+
+- name: Rubik's Cube Modeler
+  summary: Model a Rubik's Cube using Java
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor pretium eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue, nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit. Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod. Nulla fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque cursus tortor. Nunc in nisl non libero venenatis sollicitudin. 
+  previewImage:
+    path: assets/images/project-image.jpg
+    description: Rubik's Cube project image preview
+  stack:
+    - Java

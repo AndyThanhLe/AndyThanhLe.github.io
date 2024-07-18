@@ -3,14 +3,16 @@ layout: default
 ---
 
 <div id="project-section">
+{% for project in site.data.projects %}
   <div class="project-card nav-link project-link">
-    <img class="project-image" alt="EmberAlert project image preview" src="assets/images/project-image.jpg">
+    <img class="project-image" alt="{{ project.previewImage.description }}"
+      src="{{ project.previewImage.path }}">
 
     <div class="project-preview">
-      <h1>EmberAlert</h1>
+      <h1>{{ project.name }}</h1>
     </div>
-
   </div>
+{% endfor %}
 </div>
 
 <!--
