@@ -1,0 +1,29 @@
+- technology: NextJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
+
+- technology: React
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
+
+- technology: TypeScript
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
+
+- technology: Tailwind
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg
+
+- technology: TensorFlow
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg
+
+- technology: ThreeJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg
+
+- technology: MongoDB
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+
+- technology: Java
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+
+- technology: ExpressJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
+
+- technology: NodeJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
