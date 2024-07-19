@@ -1,4 +1,10 @@
-{% for social in site.data.socials %}
+<div id="watermark">
+  <p>Created by Andy Le!</p>
+</div>
+
+
+<div id="socials">
+  {% for social in site.data.socials %}
   {% for icon in site.data.icons %}
     {% if social.name == icon.name %}
       <div class="footer-social-link nav-link">
@@ -10,3 +16,4 @@
     {% endif %}
   {% endfor %}
 {% endfor %}
+</div>
