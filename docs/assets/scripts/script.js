@@ -47,3 +47,16 @@ $('.project-images-forward').click(function() {
   next.toggleClass('hide');
   next.toggleClass('visible');
 });
+
+$(window).click(function(e) {
+  if (e.target.classList.contains('project-modal')) {
+    let modal = $(e.target);
+
+    // Hide all images
+    let image = modal.find('.project-images').children('.visible');
+    image.toggleClass('visible');
+    image.toggleClass('hide');
+
+    modal.toggleClass('hide');
+  }
+});
