@@ -1,3 +1,15 @@
 ---
 layout: default
+title: Experience
 ---
+
+<div class="align-top">
+{% for experience in site.data.experiences %}
+  <h3>{{ experience.name }} | {{ experience.location }}</h3>
+  <p>{{ experience.position }}</p>
+  <p>{{ experience.duration.from | date: '%B %Y' }} - {{ experience.duration.to | date: '%B %Y' }}</p>
+  {% for task in experience.tasks %}
+    <p>{{ task }}</p>
+  {% endfor %}
+{% endfor %}
+</div>
