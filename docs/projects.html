@@ -6,7 +6,7 @@ title: Projects
 <div id="project-section">
 {% for project in site.data.projects %}
   <div class="project-card nav-link project-link">
-    <img class="project-image" title="{{ project.previewImage.description }}" alt="{{ project.previewImage.description }}" src="{{ project.previewImage.path }}" />
+    <img class="project-thumbnail" title="{{ project.thumbnail.description }}" alt="{{ project.thumbnail.description }}" src="{{ project.thumbnail.path }}" />
 
     <div class="project-preview">
       <h1>{{ project.name }}</h1>
@@ -17,6 +17,14 @@ title: Projects
         <span class="project-modal-close">&times;</span>
 
         <h1>{{ project.name }}</h1>
+
+        <div class="project-images">
+          <input class="project-images-nav" type="button" value="<"/>
+          <div>
+            <img class="project-image" src="assets/images/project_image.png" />
+          </div>
+          <input class="project-images-nav" type="button" value=">" />
+        </div>
 
         <div class="project-stack">
         {% for technology in project.stack %}
