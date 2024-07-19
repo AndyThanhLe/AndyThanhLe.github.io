@@ -7,6 +7,7 @@
 }
 
 .project-card {
+  flex: 1;
   border: solid 1px #999;
   display: flex;
   align-items: center;
@@ -72,8 +73,7 @@
   cursor: pointer;
 }
 
-
-.project-images {
+.project-images-wrapper {
   flex: 1;
   display: flex;
   background-color: #cccccc;
@@ -87,10 +87,13 @@
   height: 50px;
 }
 
+.project-images {
+  flex: 1;
+  display: flex;
+  overflow: hidden;
+}
+
 .project-image {
   flex: 1;
   max-width: 75vw;
 }
-
-
-

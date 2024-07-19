@@ -5,44 +5,47 @@ title: Projects
 
 <div id="project-section">
 {% for project in site.data.projects %}
-  <div class="project-card nav-link project-link">
+  <div class="project-card nav-link">
     <img class="project-thumbnail" title="{{ project.thumbnail.description }}" alt="{{ project.thumbnail.description }}" src="{{ project.thumbnail.path }}" />
 
     <div class="project-preview">
       <h1>{{ project.name }}</h1>
     </div>
 
-    <div class="project-modal hide">
-      <div class="project-modal-content">
-        <span class="project-modal-close">&times;</span>
+  </div>
 
-        <h1>{{ project.name }}</h1>
+  <div class="project-modal hide">
+    <div class="project-modal-content">
+      <span class="project-modal-close">&times;</span>
 
+      <h1>{{ project.name }}</h1>
+
+      <div class="project-images-wrapper">
+        <input class="project-images-nav nav-link" id="project-images-back" type="button" value="<"/>
         <div class="project-images">
-          <input class="project-images-nav" type="button" value="<"/>
-          <div>
-            <img class="project-image" src="assets/images/project_image.png" />
-          </div>
-          <input class="project-images-nav" type="button" value=">" />
+          <img class="project-image visible" src="assets/images/project_image.png" />
+          <img class="project-image hide" src="assets/images/project_image.png" />
+          <img class="project-image hide" src="assets/images/project_image.png" />
+          <img class="project-image hide" src="assets/images/project_image.png" />
         </div>
-
-        <div class="project-stack">
-        {% for technology in project.stack %}
-          {% for item in site.data.icons %}
-            {% if technology == item.name %}
-              <img title="{{ technology }}" alt="{{ technology }}" src="{{ item.src }}" />
-              {% break %}
-            {% endif %}
-          {% endfor %}
-        {% endfor %}
-        </div>
-
-        <p>{{ project.description }}</p>
-
-        <p>To view the source code, please visit <a href="{{ project.link }}">this</a> link!</p>
+        <input class="project-images-nav nav-link" id="project-images-forward" type="button" value=">" />
       </div>
-    </div>
 
+      <div class="project-stack">
+      {% for technology in project.stack %}
+        {% for item in site.data.icons %}
+          {% if technology == item.name %}
+            <img title="{{ technology }}" alt="{{ technology }}" src="{{ item.src }}" />
+            {% break %}
+          {% endif %}
+        {% endfor %}
+      {% endfor %}
+      </div>
+
+      <p>{{ project.description }}</p>
+
+      <p>To view the source code, please visit <a href="{{ project.link }}">this</a> link!</p>
+    </div>
   </div>
 {% endfor %}
 </div>

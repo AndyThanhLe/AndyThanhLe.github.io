@@ -1,8 +1,18 @@
 // Modal-related JS
-$('.project-link').click(function() {
-  $(this).find('.project-modal').toggleClass('hide');
+$('.project-card').click(function() {
+  $(this).next('.project-modal').toggleClass('hide');
 });
 
 $('.project-modal-close').click(function() {
-  $(this).next('.project-modal').toggleClass('hide');
+  $(this).closest('.project-modal').toggleClass('hide');
 });
+
+$('#project-images-forward').click(function() {
+  let current = $(this).find('.visible');
+  let next = current.next();
+  current.toggleClass('visible');
+  current.toggleClass('hidden');
+  next.toggleClass('visible');
+  next.toggleClass('hidden');
+});
+
