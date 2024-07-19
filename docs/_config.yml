@@ -24,7 +24,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Hello! My name is Andy and this is my website where you can see the 
   software products I have built and get to know a bit about me!
 domain: "AndyThanhLe.github.io"
-baseurl: "/docs" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://AndyThanhLe.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  AndyThanhLe
 
