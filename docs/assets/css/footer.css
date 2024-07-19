@@ -1,5 +1,5 @@
 .footer-social-link {
-  padding: 6px 20px;
+  padding: 6px 12px;
   border-radius: 8px;
   flex: 0 0 auto;
   display: flex;
@@ -25,4 +25,15 @@
   z-index: 1;
   /* fixes oerlap error in IE7/8 */
   background-image: url('../images/empty.gif');
+}
+
+#watermark {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+#socials {
+  display: flex;
+  gap: 5px;
+  font-size: 14px;
 }
