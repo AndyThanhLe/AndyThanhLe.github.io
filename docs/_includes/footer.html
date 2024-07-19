@@ -1,3 +1,11 @@
-<div>Example Text</div>
-
-<div>More text</div>
+{% for social in site.data.socials %}
+  {% for icon in site.data.icons %}
+    {% if social.name == icon.name %}
+      <div class="footer-social-link nav-link">
+        <img title="{{ social.name }}" alt="{{ social.name }} icon" src="{{ icon.src }}" />
+        <p>{{ social.name }}</p>
+      </div>
+      {% break %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
