@@ -4,6 +4,7 @@
 <!DOCTYPE html>
 
 <html lang="en-US">
+
 {% include head.html %}
 
 <body class="flex-col">
@@ -11,7 +12,10 @@
     {% include header.html %}
   </header>
 
+
   <div id="content">
+    <h1>{{ page.title }}</h1>
+
     {{ content }}
   </div>
 
