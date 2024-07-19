@@ -1,9 +1,21 @@
 // Modal-related JS
 $('.project-card').click(function() {
-  $(this).next('.project-modal').toggleClass('hide');
+  let modal = $(this).next('.project-modal');
+
+  // Set first image to be visible
+  let image = modal.find('.project-images').children(':first-child');
+  image.toggleClass('visible');
+  image.toggleClass('hide');
+
+  modal.toggleClass('hide');
 });
 
 $('.project-modal-close').click(function() {
+  // Hide all images
+  let image = $(this).siblings('.project-images-wrapper').find('.visible');
+  image.toggleClass('visible');
+  image.toggleClass('hide');
+
   $(this).closest('.project-modal').toggleClass('hide');
 });
 

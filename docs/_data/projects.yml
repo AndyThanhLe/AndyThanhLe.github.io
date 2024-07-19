@@ -11,6 +11,11 @@
     - TypeScript
     - Tailwind
     - TensorFlow
+  images:
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
+    - caption: dorime
+      src: assets/images/project_image.png
 
 - name: 3D Printing Business Website
   link: https://github.com/AndyThanhLe/printing-app
@@ -24,6 +29,11 @@
     - ExpressJS
     - NodeJS
     - ThreeJS
+  images:
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
+    - caption: dorime
+      src: assets/images/project_image.png
 
 - name: Rubik's Cube Modeler
   link: https://github.com/AndyThanhLe/Rubiks-Cube
@@ -34,4 +44,8 @@
     description: Rubik's Cube project image preview
   stack:
     - Java
-
+  images:
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
+    - caption: dorime
+      src: assets/images/project_image.png

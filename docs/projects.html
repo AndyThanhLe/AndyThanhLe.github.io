@@ -23,8 +23,9 @@ title: Projects
       <div class="project-images-wrapper">
         <input class="project-images-nav nav-link project-images-back" type="button" value="<"/>
         <div class="project-images">
-          <img class="project-image visible" src="assets/images/project_image_1.jpg" />
-          <img class="project-image hide" src="assets/images/project_image.png" />
+          {% for image in project.images %}
+            <img class="project-image hide" alt="project image" src="{{ image.src }}" />
+          {% endfor %}
         </div>
         <input class="project-images-nav nav-link project-images-forward" type="button" value=">" />
       </div>
