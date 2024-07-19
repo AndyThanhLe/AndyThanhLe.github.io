@@ -1,29 +1,35 @@
-- technology: NextJS
+- name: NextJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
 
-- technology: React
+- name: React
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
 
-- technology: TypeScript
+- name: TypeScript
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
 
-- technology: Tailwind
+- name: Tailwind
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg
 
-- technology: TensorFlow
+- name: TensorFlow
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tensorflow/tensorflow-original.svg
 
-- technology: ThreeJS
+- name: ThreeJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg
 
-- technology: MongoDB
+- name: MongoDB
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
 
-- technology: Java
+- name: Java
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
 
-- technology: ExpressJS
+- name: ExpressJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
 
-- technology: NodeJS
+- name: NodeJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
+
+- name: GitHub
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+
+- name: LinkedIn
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg

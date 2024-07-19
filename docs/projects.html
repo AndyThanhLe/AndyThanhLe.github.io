@@ -20,9 +20,9 @@ title: Projects
 
         <div class="project-stack">
         {% for technology in project.stack %}
-          {% for item in site.data.stack %}
-            {% if technology == item.technology %}
-              <img title="{{ item.technology }}" alt="{{ item.technology }}" src="{{ item.src }}" />
+          {% for item in site.data.icons %}
+            {% if technology == item.name %}
+              <img title="{{ technology }}" alt="{{ technology }}" src="{{ item.src }}" />
               {% break %}
             {% endif %}
           {% endfor %}
