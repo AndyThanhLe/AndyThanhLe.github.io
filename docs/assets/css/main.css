@@ -33,7 +33,7 @@ header {
 
 footer {
   flex: none;
-  height: 100px;
+  height: 75px;
   background-color: #ccc;
   display: flex;
   align-items: center;
