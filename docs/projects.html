@@ -41,7 +41,7 @@ title: Projects
       {% endfor %}
       </div>
 
-      <p>{{ project.description }}</p>
+      <p>{{ project.description | newline_to_br }}</p>
 
       <p>To view the source code, please visit <a href="{{ project.link }}">this</a> link!</p>
     </div>

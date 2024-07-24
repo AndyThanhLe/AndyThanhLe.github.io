@@ -1,7 +1,26 @@
 - name: EmberAlert
   link: https://google.ca
   summary: Fire spread prediction application leveraging an ML model
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor pretium eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue, nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit. Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod. Nulla fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque cursus tortor. Nunc in nisl non libero venenatis sollicitudin. 
+  description: |-
+    Responsibilities:
+    - Machine learning model configuration and training
+    - Data pipeline
+    - Database design
+    - Google Maps Platform API configuration
+
+    This project involves the retrieval of geospatial data, current weather metrics, and satellite-derived imagery to predict wildfire spread using a machine learning model.
+
+    During the planning phase of the project, I took it upon myself to break down the project into components that could be assigned to my group members. As such, I was assigned the role of Project Manager and coordinated development efforts to meet deadlines and ensure progress.
+
+    I took responsibility of the data pipeline, as well as the configuration and training of the machine learning model. Additionally, I created the foundational code for the fire spread preview using the Google Maps Platform API.
+
+    The data pipeline involves retrieval of data from three APIs (OpenWeatherMap, Google Earth Engine Python API, FIRMS), transformation of that data using various Python libraries including, but not limited to, SciPy, NumPy, and pandas such that it is clean and of the correct shape to be fed into the model.
+
+    The model is described to have a U-Net like convolutional neural net achitecture. As such, the prediction task is framed as an image segmentation problem where areas are classified as containing or not containing a fire. The model expects data of the shape ..., and the data pipeline cleaned and transformed the data to be of this shape.
+
+    What I learned from this project was data transformations using Python, configuration and training of machine learning models.
+
+    What I wished I did differently was spend less time trying to get everything perfect the first time around. It would have been better to develop a prototype and build incrementally from that, implementing necessary changes as they are identified.
   thumbnail:
     path: assets/images/project-image.jpg
     description: EmberAlert project image preview
@@ -12,15 +31,18 @@
     - Tailwind
     - TensorFlow
   images:
-    - caption: hamster
-      src: assets/images/project_image_1.jpg
     - caption: dorime
       src: assets/images/project_image.png
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
 
 - name: 3D Printing Business Website
   link: https://github.com/AndyThanhLe/printing-app
   summary: Website enabling customers to purchase 3D printing services
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lorem nunc, euismod vitae dui et, auctor pretium eros. Ut vel tincidunt tellus, ut rutrum purus. Nunc dignissim tincidunt mattis. Ut venenatis ipsum eu justo bibendum ultrices. Vestibulum maximus neque ut mauris tempus ornare. Duis molestie, velit et euismod congue, nisi orci interdum massa, quis placerat velit leo nec ipsum. Nam eget pulvinar velit, quis mollis elit. Curabitur lobortis ac est ut accumsan. Quisque sagittis posuere dictum. Suspendisse interdum, nibh et maximus dictum, nulla ex sagittis sapien, eget tincidunt dui sem at leo. Vivamus mollis vitae orci vitae euismod. Nulla fermentum molestie libero, in cursus justo interdum in. Fusce tincidunt eros in porttitor blandit. Vestibulum sodales lectus nulla, in varius risus venenatis sed. Suspendisse felis est, tempor eget leo id, scelerisque cursus tortor. Nunc in nisl non libero venenatis sollicitudin. 
+  description: |-
+    The idea of this project spawned from my hobby of 3D printing! This is a mock website where users can import a model file, preview it, and customize their order by changing some parameters relevant to 3D printed objects.
+
+    The ThreeJS JavaScript library is used to enable the model preview, MongoDB enables the storage of printers and material available, and Express and Node make up the backend.
   thumbnail:
     path: assets/images/project-image.jpg
     description: 3D printing project image preview
@@ -45,7 +67,24 @@
   stack:
     - Java
   images:
-    - caption: hamster
-      src: assets/images/project_image_1.jpg
     - caption: dorime
       src: assets/images/project_image.png
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
+
+- name: Portfolio Website
+  link: https://github.com/AndyThanhLe/AndyThanhLe.github.io
+  summary: Portfolio website that demonstrates projects and experiences
+  description: |-
+    This website is developed by me! The Jekyll static site generator is used with the jQuery library leveraged for better readability of script files.
+  thumbnail:
+    path: assets/images/project-image.jpg
+    description: Portfolio website image preview
+  stack:
+    - Jekyll
+    - jQuery
+  images:
+    - caption: dorime
+      src: assets/images/project_image.png
+    - caption: hamster
+      src: assets/images/project_image_1.jpg
