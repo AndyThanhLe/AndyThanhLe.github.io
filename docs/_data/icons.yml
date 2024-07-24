@@ -1,11 +1,32 @@
+- name: ExpressJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
+
+- name: GitHub
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
+
+- name: Java
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
+
+- name: Jekyll
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jekyll/jekyll-original.svg
+
+- name: jQuery
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jquery/jquery-original.svg
+
+- name: LinkedIn
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg
+
+- name: MongoDB
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
+
 - name: NextJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg
 
+- name: NodeJS
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
+
 - name: React
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg
-
-- name: TypeScript
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
 
 - name: Tailwind
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg
@@ -16,20 +37,5 @@
 - name: ThreeJS
   src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/threejs/threejs-original.svg
 
-- name: MongoDB
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg
-
-- name: Java
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg
-
-- name: ExpressJS
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/express/express-original.svg
-
-- name: NodeJS
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg
-
-- name: GitHub
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg
-
-- name: LinkedIn
-  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg
+- name: TypeScript
+  src: https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg
