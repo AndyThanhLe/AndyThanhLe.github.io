@@ -1,0 +1,10 @@
+.experience-url {
+  text-decoration: none;
+}
+
+.experience-url:active,
+.experience-url:hover,
+.experience-url:link,
+.experience-url:visited {
+  color: #3b83f6;
+}
